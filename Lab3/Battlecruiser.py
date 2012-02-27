@@ -27,6 +27,8 @@ class Battlecruiser(pygame.sprite.Sprite):
 
 		self.dx = dx
 		self.dy = dy
+		
+		self.ccounter = 0 #Time since last laser fired
 
 	def draw(self):
 		'''Draw the Battlecruiser'''
@@ -57,6 +59,7 @@ if __name__ == "__main__":
 	BC_IMAGE = 'battlecruiser.gif'
 	LASER_IMAGE = 'laser.gif'
 	LASER_SPEED = -10
+	COOLDOWN_TIME = 5
 
 	pygame.init()
 	screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -64,17 +67,19 @@ if __name__ == "__main__":
 	clock = pygame.time.Clock()
 	font = pygame.font.Font(None, 28)
 	
-	pressed = None
 	
 	bc = Battlecruiser(screen, BC_IMAGE, SCREEN_WIDTH/2, SCREEN_HEIGHT - 150, 0, 0)
 	lasers = []
 	while True:
 		time_passed = clock.tick(FPS)
-
+                
 		screen.fill(BACKGROUND_COLOR)
 		
+		key = pygame.key.get_pressed()
+		bc.dx = 0
+		bc.dy = 0
 		bc.draw()
-		bc.update(pressed)
+		
 		for laser in lasers:
 			laser.update()
 			laser.draw()
@@ -90,16 +95,22 @@ if __name__ == "__main__":
 				if event.key == K_ESCAPE:
 					pygame.quit()
 					sys.exit()
-				elif event.key == K_UP:
-					pressed = "UP"
-				elif event.key == K_DOWN:
-					pressed = "DOWN"
-				elif event.key == K_LEFT:
-					pressed = "LEFT"
-				elif event.key == K_RIGHT:
-					pressed = "RIGHT"
-				elif event.key == K_SPACE:
-					lasers.append(Laser(screen, LASER_IMAGE, bc.x +48, bc.y, LASER_SPEED))
-				else:
-					pressed = None	
 
+		if key[pygame.K_UP]:
+			pressed = "UP"
+			bc.update(pressed)
+		if key[pygame.K_DOWN]:
+			pressed = "DOWN"
+			bc.update(pressed)
+		if key[pygame.K_LEFT]:
+			pressed = "LEFT"
+			bc.update(pressed)
+		if key[pygame.K_RIGHT]:
+			pressed = "RIGHT"
+			bc.update(pressed)
+		if key[pygame.K_SPACE]:
+			if bc.ccounter == 0 :
+				lasers.append(Laser(screen, LASER_IMAGE, bc.x +48, bc.y, LASER_SPEED))
+				bc.ccounter = COOLDOWN_TIME
+			else:
+			 	bc.ccounter -= 1
