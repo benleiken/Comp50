@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x2ec3e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x2ec3e0" />
+  <item nodeId="node-0x2ec3e0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+itest
+An Interactive Fiction by Ben Leiken The White Room is a room with a door to the east &quot;The description of The White Room is black curtains near the station. Black-roof country, no gold pavements, tired starlings. Silver horses run down moonbeams on your eyes. East is The Garden of Eden.&quot;
+Release 1 / Serial number 120224 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+White Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="16">NO</temporary>
+    <children>
+      <child nodeId="node-0x52b92e0" />
+      <child nodeId="node-0x527590" />
+      <child nodeId="node-0x52cdda0" />
+      <child nodeId="node-0x2edd40" />
+    </children>
+  </item>
+  <item nodeId="node-0x2edd40">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x52cdda0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">White Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0x527590">
+    <command xml:space="preserve">look around</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x2f5910" />
+    </children>
+  </item>
+  <item nodeId="node-0x2f5910">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Garden of Eden
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c4c670" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c4c670">
+    <command xml:space="preserve">pavements</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c483b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c483b0">
+    <command xml:space="preserve">inspect</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x52b92e0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Garden of Eden
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x518020" />
+      <child nodeId="node-0x6c6ceb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c6ceb0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+The White Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0xb076060" />
+    </children>
+  </item>
+  <item nodeId="node-0xb076060">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Garden of Eden
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x518020">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Garden of Eden
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c37ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c37ab0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+White Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xb090090" />
+    </children>
+  </item>
+  <item nodeId="node-0xb090090">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">White Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x751d170" />
+    </children>
+  </item>
+  <item nodeId="node-0x751d170">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">White Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+</Skein>
