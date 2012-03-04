@@ -13,7 +13,13 @@ class Battlecruiser(pygame.sprite.Sprite):
 			print "Could not load image: " + image_title
 			raise SystemExit, message
 		return image.convert_alpha()
-	
+	def load_sound(self, sound_name):
+		try:
+			sound = pygame.mixer.Sound(sound_name)
+		except pygame.error, message:
+			print "Cannot load sound: " + sound_name
+			raise SystemExit, message
+		return sound	
 	def __init__(self, screen, img_name, x, y, dx, dy):
 		pygame.sprite.Sprite.__init__(self)
 		self.screen = screen
@@ -21,18 +27,22 @@ class Battlecruiser(pygame.sprite.Sprite):
 		self.image= self.load_image(img_name)
 		self.rect = self.image.get_rect()
 
+		self.sound = self.load_sound("death_explode.wav")
+
 		self.image_w, self.image_h = self.image.get_size()
 		self.x = x
 		self.y = y
-
+		
 		self.dx = dx
 		self.dy = dy
-		
+		self.rect.move(self.x, self.y)
+		self.rect.topleft = (self.x, self.y)
+		self.rect.bottomright = (self.x + self.image_w, self.y + self.image_h)
+
 		self.ccounter = 0 #Time since last laser fired
 
 	def draw(self):
 		'''Draw the Battlecruiser'''
-		draw_pos =  self.image.get_rect().move(self.x - self.image_w / 2, self.y - self.image_h /2)
 		self.screen.blit(self.image, (self.x, self.y))
 
 	def update(self, dir):
@@ -45,6 +55,9 @@ class Battlecruiser(pygame.sprite.Sprite):
 			self.x = self.x - 3
 		elif dir == "RIGHT":
 			self.x = self.x + 3
+		self.rect.move(self.x, self.y)
+		self.rect.topleft = (self.x, self.y)
+		self.rect.bottomright = (self.x + self.image_w, self.y + self.image_h)
 
 if __name__ == "__main__":
 	if not pygame.font:
@@ -110,7 +123,9 @@ if __name__ == "__main__":
 			bc.update(pressed)
 		if key[pygame.K_SPACE]:
 			if bc.ccounter == 0 :
-				lasers.append(Laser(screen, LASER_IMAGE, bc.x +48, bc.y, LASER_SPEED))
+				newLaser = Laser(screen, LASER_IMAGE, bc.x +48, bc.y, LASER_SPEED)
+				newLaser.sound.play()
+				lasers.append(newLaser)
 				bc.ccounter = COOLDOWN_TIME
 			else:
 			 	bc.ccounter -= 1

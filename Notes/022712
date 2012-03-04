@@ -1,0 +1,52 @@
+Game Development Notes 2/27/12
+
+Arcade Gold Rush Model
+
+Waterfall Model
+	-Flows in one direction
+
+Agile Model
+	-Iterative, can backtrace during the development process
+	-Need to hire people who work fast, can get on same page
+	
+Sid Process
+	-Prototype
+	-Play the game for a while and get the basics right
+	-Now get other players to look at the game
+	-Carefully observe the players
+	-Constantly reward player in game
+	-Throw in the testers
+	-Make the game harder until player begs for mercy
+	
+Physics
+	Position and Velocity
+	(x,y)         (dx,dy)
+	
+	Calculation:
+		scale_x = cos(angle)
+		scale_y = sin(angle)
+		dx = speed * scale_x
+		dy = speed * scale_y
+		x += dx
+		y += dy
+		
+		Acceleration:
+			dx += accel
+			x += dx
+
+Collision Detection
+	Detection:
+		Coordinates
+		Bounding Box
+			+ Quick, dirty
+			+ Easy to implement
+			- Not entirely accurate, wasted space
+		Bounding Circle
+			+ See above
+			- Could be worse, more wasted space
+		Polygon Outline of Object
+			+ Accurate
+			- Too slow to render outline
+		Pixel Detection
+			ex. Duck Hunt
+	Response:
