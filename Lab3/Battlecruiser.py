@@ -48,13 +48,13 @@ class Battlecruiser(pygame.sprite.Sprite):
 	def update(self, dir):
 		'''Move the Battlecruiser, fire Lasers'''
 		if dir == "UP":
-			self.y = self.y - 3
+			self.y = self.y - 5
 		elif dir == "DOWN":
-			self.y = self.y + 3
+			self.y = self.y + 5
 		elif dir == "LEFT":
-			self.x = self.x - 3
+			self.x = self.x - 5
 		elif dir == "RIGHT":
-			self.x = self.x + 3
+			self.x = self.x + 5
 		self.rect.move(self.x, self.y)
 		self.rect.topleft = (self.x, self.y)
 		self.rect.bottomright = (self.x + self.image_w, self.y + self.image_h)

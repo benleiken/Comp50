@@ -117,7 +117,6 @@ while gameover != True:
 		if pygame.sprite.collide_rect(laser, enemy) and enemy.active == True:
 			enemy.laser_collision()
 			score = score + 100
-			print "Score: " + str(score)
 	if pygame.sprite.collide_rect(bc, enemy) and enemy.active == True:
 		bc.sound.play()
 		gameover = True

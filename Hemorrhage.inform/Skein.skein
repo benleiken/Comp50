@@ -1,0 +1,1934 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x5c1280" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xe53b490" />
+  <item nodeId="node-0x5c1280">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+
+You are a Macrophage named Phil. You live inside of Ming Chow. Ming has a brain aneurysm. His life is in YOUR flagelli (hands). You must save him before his time runs out!
+
+Hemorrhage
+An Interactive Fiction by Ben Leiken
+Release 1 / Serial number 120313 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+
+Left Atrium
+The Atrium pulsates all around you, pumping red and white blood cells, platelets, and plasma southward towards the Right Ventricle.
+
+You can see a Mitral Valve and an Electrostatic Stimulator here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="312">NO</temporary>
+    <children>
+      <child nodeId="node-0xe5860d0" />
+      <child nodeId="node-0xe5f3390" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5f3390">
+    <command xml:space="preserve">take stimulator</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="312">NO</temporary>
+    <children>
+      <child nodeId="node-0xe565ee0" />
+      <child nodeId="node-0xe52f4a0" />
+      <child nodeId="node-0x16f61790" />
+      <child nodeId="node-0xe5d0840" />
+      <child nodeId="node-0xce0c840" />
+      <child nodeId="node-0x911ebc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x911ebc0">
+    <command xml:space="preserve">unlock valve</command>
+    <result xml:space="preserve">(with the Electrostatic Stimulator)
+You unlock the Mitral Valve.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="307">YES</temporary>
+    <children>
+      <child nodeId="node-0xe55dc90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe55dc90">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Mitral Valve)
+
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward through the aortic valve, into the aorta, and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="307">YES</temporary>
+    <children>
+      <child nodeId="node-0x8feff70" />
+      <child nodeId="node-0x16fd6460" />
+      <child nodeId="node-0xcef7b10" />
+    </children>
+  </item>
+  <item nodeId="node-0xcef7b10">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xe548cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe548cf0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is a bulging, pulsating mass on the ceiling. It&apos;s the aneurism!
+
+You can see an Aneurism, a wire coil, a heparin capsule and a calcium deposit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f18ed0" />
+      <child nodeId="node-0x1045eba0" />
+      <child nodeId="node-0x10466960" />
+      <child nodeId="node-0x11e9cd20" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e9cd20">
+    <command xml:space="preserve">take wire</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ea0280" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ea0280">
+    <command xml:space="preserve">take heparin</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f511c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f511c0">
+    <command xml:space="preserve">wire Aneurism</command>
+    <result xml:space="preserve">What do you want to wire the Aneurism with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5c4470" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5c4470">
+    <command xml:space="preserve">wire</command>
+    <result xml:space="preserve">What do you want to wire?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0x11eb4e90" />
+    </children>
+  </item>
+  <item nodeId="node-0x11eb4e90">
+    <command xml:space="preserve">wire aneurism with wire coil</command>
+    <result xml:space="preserve">The Aneurism has been wired!
+
+[Your score has just gone up by one hundred points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="206">YES</temporary>
+    <children>
+      <child nodeId="node-0xe503540" />
+    </children>
+  </item>
+  <item nodeId="node-0xe503540">
+    <command xml:space="preserve">dose the aneurism with heparin</command>
+    <result xml:space="preserve">The Aneurism has been dosed with Heparin!
+
+The Aneurism has been treated! Ming will live.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 200 out of a possible 0, in 9 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="205">YES</temporary>
+  </item>
+  <item nodeId="node-0x10466960">
+    <command xml:space="preserve">take wire coil</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="195">YES</temporary>
+    <children>
+      <child nodeId="node-0xce38710" />
+      <child nodeId="node-0xe51a390" />
+    </children>
+  </item>
+  <item nodeId="node-0xe51a390">
+    <command xml:space="preserve">wire aneurism with wire coil</command>
+    <result xml:space="preserve">hi there
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="194">YES</temporary>
+  </item>
+  <item nodeId="node-0xce38710">
+    <command xml:space="preserve">wire the Aneurism with wire coil</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="188">YES</temporary>
+    <children>
+      <child nodeId="node-0x10469f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x10469f40">
+    <command xml:space="preserve">wiring the aneurism with wire coil</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="187">YES</temporary>
+  </item>
+  <item nodeId="node-0x1045eba0">
+    <command xml:space="preserve">take dposit</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+    <children>
+      <child nodeId="node-0x10465000" />
+    </children>
+  </item>
+  <item nodeId="node-0x10465000">
+    <command xml:space="preserve">take deposit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+    <children>
+      <child nodeId="node-0x10433350" />
+    </children>
+  </item>
+  <item nodeId="node-0x10433350">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+    <children>
+      <child nodeId="node-0xe59f1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe59f1c0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Right Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain.
+
+You can see a Mitral Valve and James the Amoeva here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f20ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f20ee0">
+    <command xml:space="preserve">give James calcium deposit</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+    <children>
+      <child nodeId="node-0x9126c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9126c30">
+    <command xml:space="preserve">give James the Amoeba the calcium deposit</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="141">YES</temporary>
+  </item>
+  <item nodeId="node-0x8f18ed0">
+    <command xml:space="preserve">take deposit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f42770" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f42770">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xe55ff90" />
+      <child nodeId="node-0x5a48e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x5a48e0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is blood pouring from a hole in the ceiling.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="119">YES</temporary>
+  </item>
+  <item nodeId="node-0xe55ff90">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Right Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain.
+
+You can see a Mitral Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x535aa60" />
+    </children>
+  </item>
+  <item nodeId="node-0x535aa60">
+    <command xml:space="preserve">talk to James</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5e3ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5e3ab0">
+    <command xml:space="preserve">examine James</command>
+    <result xml:space="preserve">A lumpy, surly-looking Amoeba. He asks you to find him a calcium deposit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x1045dbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1045dbc0">
+    <command xml:space="preserve">give James calcium deposit</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="130">YES</temporary>
+  </item>
+  <item nodeId="node-0x16fd6460">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Right Ventricle
+The ventricle is pulsating loudly as deoxygenated blood rushes past you into the pulmonary arteries. The Left Ventricle is to the north. The Inferior Vena Cava is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0x914cca0" />
+      <child nodeId="node-0x13920b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x13920b50">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Inferior Vena Cava
+Blood rushes past you towards the Right Ventricle. The Stomach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0xe574390" />
+    </children>
+  </item>
+  <item nodeId="node-0xe574390">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Stomach
+Food particles, acids, and enzymes churn around you. Don&apos;t stay here long!
+
+You can see an Other-Half Sign and Josh the Flesh-Eating Bacteria here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fcabb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fcabb0">
+    <command xml:space="preserve">read sign</command>
+    <result xml:space="preserve">To repair the aneurysm you must use the wire coil! Repair it by using the custom command -- wire the aneurysm with coil!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0x1390b1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1390b1c0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Inferior Vena Cava
+Blood rushes past you towards the Right Ventricle. The Stomach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0x139ae390" />
+    </children>
+  </item>
+  <item nodeId="node-0x139ae390">
+    <command xml:space="preserve">go nort</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b065570" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b065570">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Right Ventricle
+The ventricle is pulsating loudly as deoxygenated blood rushes past you into the pulmonary arteries. The Left Ventricle is to the north. The Inferior Vena Cava is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0xe573390" />
+    </children>
+  </item>
+  <item nodeId="node-0xe573390">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward through the aortic valve, into the aorta, and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0x139c50b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139c50b0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Pulmonary Vein
+Oxygenated blood rushes past you towards the Left Ventricle. The Lungs are to the east.
+
+You can see a Half-Sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+    <children>
+      <child nodeId="node-0x545780" />
+    </children>
+  </item>
+  <item nodeId="node-0x545780">
+    <command xml:space="preserve">read sign</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="301">YES</temporary>
+  </item>
+  <item nodeId="node-0x914cca0">
+    <command xml:space="preserve">go outh</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e516c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e516c0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Inferior Vena Cava
+Blood rushes past you towards the Right Ventricle. The Stomach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fb48b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fb48b0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Stomach
+Food particles, acids, and enzymes churn around you. Don&apos;t stay here long!
+
+You can see a sign and Josh the Flesh-Eating Bacteria here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x7cdf5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7cdf5d0">
+    <command xml:space="preserve">read sign</command>
+    <result xml:space="preserve">To repair the aneurism you must use the wire coil! Repair it by using the custom command -- wire the aneurism with coil!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f6b050" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f6b050">
+    <command xml:space="preserve">talk to Josh</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="238">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5cb780" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5cb780">
+    <command xml:space="preserve">examine josh</command>
+    <result xml:space="preserve">Josh eyes you angrily and asks if you&apos;re lost because there&apos;s not much of use in here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+  </item>
+  <item nodeId="node-0x8feff70">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Pulmonary Vein
+Oxygenated blood rushes past you towards the Left Ventricle. The Lungs are to the east.
+
+You can see a Half-Sign sign here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="307">YES</temporary>
+    <children>
+      <child nodeId="node-0x104d6920" />
+      <child nodeId="node-0x104752d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x104752d0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xce0fc90" />
+    </children>
+  </item>
+  <item nodeId="node-0xce0fc90">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is blood pouring from a hole in the ceiling.
+
+You can see a calcium deposit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0x104cfc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x104cfc60">
+    <command xml:space="preserve">take deposit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0x1049d570" />
+    </children>
+  </item>
+  <item nodeId="node-0x1049d570">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f25ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f25ac0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Right Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain.
+
+You can see a Mitral Valve and James the Amoeva here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+    <children>
+      <child nodeId="node-0xe557930" />
+    </children>
+  </item>
+  <item nodeId="node-0xe557930">
+    <command xml:space="preserve">give James the Amoeva calcium deposit</command>
+    <result xml:space="preserve">You can only do that to something animate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="151">YES</temporary>
+  </item>
+  <item nodeId="node-0x104d6920">
+    <command xml:space="preserve">read sign</command>
+    <result xml:space="preserve">To correctly repair the aneurysm, you must use a heparin capsule. To administer the heparin, use the custom command--dose aneurysm with heparin.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="306">YES</temporary>
+  </item>
+  <item nodeId="node-0xce0c840">
+    <command xml:space="preserve">unlock valvue</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="112">YES</temporary>
+    <children>
+      <child nodeId="node-0x104d7230" />
+    </children>
+  </item>
+  <item nodeId="node-0x104d7230">
+    <command xml:space="preserve">unlock valve</command>
+    <result xml:space="preserve">(with the Electrostatic Stimulator)
+You unlock the Mitral Valve.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="112">YES</temporary>
+  </item>
+  <item nodeId="node-0xe5d0840">
+    <command xml:space="preserve">unlock mitral</command>
+    <result xml:space="preserve">(with the Electrostatic Stimulator)
+You unlock the Mitral Valve.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">NO</temporary>
+    <children>
+      <child nodeId="node-0xe5a8930" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5a8930">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Mitral Valve)
+
+Right Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain.
+
+You can see a Mitral Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">NO</temporary>
+    <children>
+      <child nodeId="node-0x5cc780" />
+    </children>
+  </item>
+  <item nodeId="node-0x5cc780">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <commentary xml:space="preserve">go nort</commentary>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="165">NO</temporary>
+    <children>
+      <child nodeId="node-0x10431cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10431cc0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is blood pouring from a hole in the ceiling.
+
+You can see a calcium deposit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0xe553320" />
+    </children>
+  </item>
+  <item nodeId="node-0xe553320">
+    <command xml:space="preserve">take deposit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f49a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f49a20">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0xe522d40" />
+    </children>
+  </item>
+  <item nodeId="node-0xe522d40">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Right Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain.
+
+You can see a Mitral Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="165">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e7a0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e7a0c0">
+    <command xml:space="preserve">give James the deposit</command>
+    <result xml:space="preserve">Now James has the calcium deposit. He is delighted!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="164">YES</temporary>
+  </item>
+  <item nodeId="node-0x16f61790">
+    <command xml:space="preserve">open valve</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fb45b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fb45b0">
+    <command xml:space="preserve">unlock valve</command>
+    <result xml:space="preserve">(with the Electrostatic Stimulator)
+You unlock the Mitral Valve.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139ec2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139ec2a0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Mitral Valve)
+
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward through the aortic valve, into the aorta, and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11edb620" />
+    </children>
+  </item>
+  <item nodeId="node-0x11edb620">
+    <command xml:space="preserve">examine james</command>
+    <result xml:space="preserve">A lumpy, surly-looking Amoeba. He asks you to find him a calcium deposit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139c6410" />
+    </children>
+  </item>
+  <item nodeId="node-0x139c6410">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Right Ventricle
+The ventricle is pulsating loudly as deoxygenated blood rushes past you into the pulmonary arteries. The Left Ventricle is to the north. The Inferior Vena Cava is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139e7ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139e7ef0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Inferior Vena Cava
+Blood rushes past you towards the Right Ventricle. The Stomach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f62020" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f62020">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Stomach
+Food particles, acids, and enzymes churn around you. Don&apos;t stay here long!
+
+You can see Josh the Flesh-Eating Bacteria here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139d3420" />
+    </children>
+  </item>
+  <item nodeId="node-0x139d3420">
+    <command xml:space="preserve">examine josh</command>
+    <result xml:space="preserve">Josh eyes you angrily and asks if you&apos;re lost because there&apos;s not much of use in here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e91a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e91a10">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Inferior Vena Cava
+Blood rushes past you towards the Right Ventricle. The Stomach is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ef4170" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ef4170">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Right Ventricle
+The ventricle is pulsating loudly as deoxygenated blood rushes past you into the pulmonary arteries. The Left Ventricle is to the north. The Inferior Vena Cava is to the south.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f5cd70" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f5cd70">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward through the aortic valve, into the aorta, and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x13919350" />
+    </children>
+  </item>
+  <item nodeId="node-0x13919350">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the Aortic Valve)
+
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see an Aortic Valve and a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139a5f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x139a5f90">
+    <command xml:space="preserve">open cholesterol deposit</command>
+    <result xml:space="preserve">You open the cholesterol deposit, revealing a leaflet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ebaf30" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ebaf30">
+    <command xml:space="preserve">read leaflet</command>
+    <result xml:space="preserve">The aneurysm is located ahead! You must find the heparin capsule and the wire coil! Hurry, Ming doesn&apos;t have much time!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e9bd30" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e9bd30">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is a bulging, pulsating mass on the ceiling. It&apos;s the aneurysm!
+
+You can see an Aneurysm and a calcium deposit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e209f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e209f0">
+    <command xml:space="preserve">get calcium deposit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fb3490" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fb3490">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebellum
+You are in the control center of Ming. Be careful, don&apos;t touch anything!
+
+You can see a G-Protein Coupled Receptor, Alex the Interneuron and John the Virus here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x104499a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x104499a0">
+    <command xml:space="preserve">examine alex</command>
+    <result xml:space="preserve">A friendly-looking Interneuron. He tells you he has the G-Protein
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f7ec80" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f7ec80">
+    <command xml:space="preserve">ask for the G-protein</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x13995110" />
+    </children>
+  </item>
+  <item nodeId="node-0x13995110">
+    <command xml:space="preserve">ask for the G-p</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f1eb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f1eb50">
+    <command xml:space="preserve">ask alex for the G-p</command>
+    <result xml:space="preserve">Now you have the G-Protein!
+
+[Your score has just gone up by fifty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e1b0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e1b0f0">
+    <command xml:space="preserve">unlock g-protein couple receptor</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fa1380" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fa1380">
+    <command xml:space="preserve">unlock receptor</command>
+    <result xml:space="preserve">What do you want to unlock the G-Protein Coupled Receptor with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139e80c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139e80c0">
+    <command xml:space="preserve">unlock receptor with G-p</command>
+    <result xml:space="preserve">You unlock the G-Protein Coupled Receptor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16feb400" />
+    </children>
+  </item>
+  <item nodeId="node-0x16feb400">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening the G-Protein Coupled Receptor)
+
+Salivary Gland
+It&apos;s salty and moist in here. Saliva drips off the walls.
+
+You can see a G-Protein Coupled Receptor and a heparin capsule here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e50c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e50c30">
+    <command xml:space="preserve">pick up heparin capsule</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f38430" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f38430">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Cerebellum
+You are in the control center of Ming. Be careful, don&apos;t touch anything!
+
+You can see a G-Protein Coupled Receptor, Alex the Interneuron and John the Virus here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139ac660" />
+    </children>
+  </item>
+  <item nodeId="node-0x139ac660">
+    <command xml:space="preserve">examine john</command>
+    <result xml:space="preserve">A shifty-looking Virus. He is holding a lysosome…
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e1b150" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e1b150">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is a bulging, pulsating mass on the ceiling. It&apos;s the aneurysm!
+
+You can see an Aneurysm here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e84460" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e84460">
+    <command xml:space="preserve">dose aneurysm with heperin</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x13947bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13947bf0">
+    <command xml:space="preserve">dose aneurysm with heparin</command>
+    <result xml:space="preserve">The Aneurysm has been dosed with Heparin!
+
+[Your score has just gone up by one hundred points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f7d180" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f7d180">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see an Aortic Valve and a cholesterol deposit (in which is a leaflet) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fde420" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fde420">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward through the aortic valve, into the aorta, and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f411d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f411d0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Pulmonary Vein
+Oxygenated blood rushes past you towards the Left Ventricle. The Lungs are to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f6c910" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f6c910">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Lungs
+You witness Oxygen Molecules moving out of the Lungs and into the bloodstream.
+
+You can see Don the Macrophage here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fbd060" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fbd060">
+    <command xml:space="preserve">examine don</command>
+    <result xml:space="preserve">Your friend Don greets you warmly. He tells you he has a wire coil that he thinks you&apos;ll need.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x56d7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x56d7d0">
+    <command xml:space="preserve">ask don for wire</command>
+    <result xml:space="preserve">You have the wire coil! You&apos;re one step closer to repairing the aneurysm
+[Your score has just gone up by fifty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f33fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f33fd0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Pulmonary Vein
+Oxygenated blood rushes past you towards the Left Ventricle. The Lungs are to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f7d2f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f7d2f0">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward through the aortic valve, into the aorta, and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f21640" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f21640">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see an Aortic Valve and a cholesterol deposit (in which is a leaflet) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f23cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f23cd0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is a bulging, pulsating mass on the ceiling. It&apos;s the aneurysm!
+
+You can see an Aneurysm here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e91200" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e91200">
+    <command xml:space="preserve">wire aneuyism with wire coil</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x16fdd1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16fdd1a0">
+    <command xml:space="preserve">wire aneuryism with wire coil</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="283">YES</temporary>
+    <children>
+      <child nodeId="node-0x139c9ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139c9ff0">
+    <command xml:space="preserve">wire aneurysm with wire coil</command>
+    <result xml:space="preserve">The Aneurysm has been wired!
+
+The Aneurysm has been treated! Ming will live.
+
+
+
+    *** You have won ***
+
+
+In that game you scored 300 out of a possible 0, in 38 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+  </item>
+  <item nodeId="node-0xe52f4a0">
+    <command xml:space="preserve">unlock mitral valve</command>
+    <result xml:space="preserve">(with the Electrostatic Stimulator)
+You unlock the Mitral Valve.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x10451130" />
+    </children>
+  </item>
+  <item nodeId="node-0x10451130">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Mitral Valve)
+
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ee9100" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ee9100">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Pulmonary Vein
+Oxygenated blood rushes past you towards the Left Ventricle. The Lungs are to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5f3870" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5f3870">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f7af60" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f7af60">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Lungs
+You witness Oxygen Molecules moving out of the Lungs and into the bloodstream.
+
+You can see Don the Macrophage here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0xce44e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xce44e50">
+    <command xml:space="preserve">talk to don</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e37070" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e37070">
+    <command xml:space="preserve">examine don</command>
+    <result xml:space="preserve">Your friend Don greets you warmly. He tells you he has a wire coil that he thinks you&apos;ll need.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e28c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e28c80">
+    <command xml:space="preserve">ask don for wire coil</command>
+    <result xml:space="preserve">You have the wire coil! You&apos;re one step closer to repairing the aneurysm
+[Your score has just gone up by fifty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x16faa750" />
+    </children>
+  </item>
+  <item nodeId="node-0x16faa750">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Pulmonary Vein
+Oxygenated blood rushes past you towards the Left Ventricle. The Lungs are to the North.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0xe521050" />
+    </children>
+  </item>
+  <item nodeId="node-0xe521050">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x139f4c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x139f4c40">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the Aortic Valve)
+
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see an Aortic Valve and a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x104466b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x104466b0">
+    <command xml:space="preserve">examine deposit</command>
+    <result xml:space="preserve">You see nothing special about the cholesterol deposit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f84fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f84fd0">
+    <command xml:space="preserve">open deposit</command>
+    <result xml:space="preserve">You open the cholesterol deposit, revealing a leaflet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5bd5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5bd5a0">
+    <command xml:space="preserve">read leaflet</command>
+    <result xml:space="preserve">The Aneurism is located ahead! You must find the heparin capsule and the wire coil! Hurry, Ming doesn&apos;t have much time!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e397b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e397b0">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is a bulging, pulsating mass on the ceiling. It&apos;s the aneurism!
+
+You can see an Aneurism and a calcium deposit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x16f887a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x16f887a0">
+    <command xml:space="preserve">take deposit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="228">YES</temporary>
+    <children>
+      <child nodeId="node-0x1049b8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1049b8e0">
+    <command xml:space="preserve">wire the aneurism with the coil</command>
+    <result xml:space="preserve">The Aneurism has been wired!
+
+[Your score has just gone up by one hundred points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="227">YES</temporary>
+  </item>
+  <item nodeId="node-0xe565ee0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Mitral Valve)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="312">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5e2d70" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5e2d70">
+    <command xml:space="preserve">unlock valve</command>
+    <result xml:space="preserve">(with the Electrostatic Stimulator)
+You unlock the Mitral Valve.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="312">YES</temporary>
+    <children>
+      <child nodeId="node-0x10409cf0" />
+      <child nodeId="node-0x1d06bc50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d06bc50">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Mitral Valve)
+
+Left Ventricle
+The pulsation is more powerful here, as blood is directed westward through the aortic valve, into the aorta, and into the brain. To the east is the pulmonary vein.
+
+You can see a Mitral Valve, an Aortic Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="312">YES</temporary>
+    <children>
+      <child nodeId="node-0xe53b490" />
+    </children>
+  </item>
+  <item nodeId="node-0xe53b490">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening the Aortic Valve)
+
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see an Aortic Valve and a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="311">YES</temporary>
+  </item>
+  <item nodeId="node-0x10409cf0">
+    <command xml:space="preserve">go souht</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f29250" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f29250">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">(first opening the Mitral Valve)
+
+Right Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain.
+
+You can see a Mitral Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0xe55ac90" />
+    </children>
+  </item>
+  <item nodeId="node-0xe55ac90">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0xe573730" />
+    </children>
+  </item>
+  <item nodeId="node-0xe573730">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0x11e60d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x11e60d30">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">
+Cerebral Cortex
+There is blood pouring from a hole in the ceiling.
+
+You can see a calcium deposit here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5d4ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5d4ad0">
+    <command xml:space="preserve">take deposit</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0xe5ab880" />
+    </children>
+  </item>
+  <item nodeId="node-0xe5ab880">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Aorta
+The pressure in here is incredible! The Cerebral Cortex is ahead.
+
+You can see a cholesterol deposit (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0x8f26580" />
+    </children>
+  </item>
+  <item nodeId="node-0x8f26580">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Right Ventricle
+The pulsation is more powerful here, as blood is directed westward towards the aorta and into the brain.
+
+You can see a Mitral Valve and James the Amoeba here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="177">YES</temporary>
+    <children>
+      <child nodeId="node-0x7c5fd60" />
+    </children>
+  </item>
+  <item nodeId="node-0x7c5fd60">
+    <command xml:space="preserve">give james deposit</command>
+    <result xml:space="preserve">Now James has the calcium deposit. He is delighted!
+
+[Your score has just gone up by fifty points.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="176">YES</temporary>
+  </item>
+  <item nodeId="node-0xe5860d0">
+    <command xml:space="preserve">wire the mitral valve</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="180">YES</temporary>
+    <children>
+      <child nodeId="node-0x11edc4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11edc4d0">
+    <command xml:space="preserve">wiring</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="180">YES</temporary>
+    <children>
+      <child nodeId="node-0xce87cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xce87cd0">
+    <command xml:space="preserve">take stimulator</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="179">YES</temporary>
+  </item>
+</Skein>

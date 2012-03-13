@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x2ec3e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x23eee0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2ec3e0" />
-  <item nodeId="node-0x2ec3e0">
+  <activeNode nodeId="node-0x23eee0" />
+  <item nodeId="node-0x23eee0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -19,13 +19,13 @@ White Room
     <changed>NO</changed>
     <temporary score="16">NO</temporary>
     <children>
-      <child nodeId="node-0x52b92e0" />
-      <child nodeId="node-0x527590" />
-      <child nodeId="node-0x52cdda0" />
-      <child nodeId="node-0x2edd40" />
+      <child nodeId="node-0x23f180" />
+      <child nodeId="node-0x23ef80" />
+      <child nodeId="node-0x23ef30" />
+      <child nodeId="node-0x23ed90" />
     </children>
   </item>
-  <item nodeId="node-0x2edd40">
+  <item nodeId="node-0x23ed90">
     <command xml:space="preserve">go south</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -34,7 +34,7 @@ White Room
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x52cdda0">
+  <item nodeId="node-0x23ef30">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">White Room
 
@@ -43,7 +43,7 @@ White Room
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
   </item>
-  <item nodeId="node-0x527590">
+  <item nodeId="node-0x23ef80">
     <command xml:space="preserve">look around</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -52,10 +52,10 @@ White Room
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x2f5910" />
+      <child nodeId="node-0x23efd0" />
     </children>
   </item>
-  <item nodeId="node-0x2f5910">
+  <item nodeId="node-0x23efd0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Garden of Eden
 
@@ -64,10 +64,10 @@ White Room
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x6c4c670" />
+      <child nodeId="node-0x23f020" />
     </children>
   </item>
-  <item nodeId="node-0x6c4c670">
+  <item nodeId="node-0x23f020">
     <command xml:space="preserve">pavements</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -76,10 +76,10 @@ White Room
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x6c483b0" />
+      <child nodeId="node-0x23f090" />
     </children>
   </item>
-  <item nodeId="node-0x6c483b0">
+  <item nodeId="node-0x23f090">
     <command xml:space="preserve">inspect</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -88,7 +88,7 @@ White Room
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x52b92e0">
+  <item nodeId="node-0x23f180">
     <command xml:space="preserve">go east</command>
     <result xml:space="preserve">
 Garden of Eden
@@ -98,34 +98,11 @@ Garden of Eden
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x518020" />
-      <child nodeId="node-0x6c6ceb0" />
+      <child nodeId="node-0x216320" />
+      <child nodeId="node-0x216260" />
     </children>
   </item>
-  <item nodeId="node-0x6c6ceb0">
-    <command xml:space="preserve">go west</command>
-    <result xml:space="preserve">
-The White Room
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0xb076060" />
-    </children>
-  </item>
-  <item nodeId="node-0xb076060">
-    <command xml:space="preserve">go east</command>
-    <result xml:space="preserve">
-Garden of Eden
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="9">YES</temporary>
-  </item>
-  <item nodeId="node-0x518020">
+  <item nodeId="node-0x216260">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Garden of Eden
 
@@ -134,10 +111,10 @@ Garden of Eden
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x6c37ab0" />
+      <child nodeId="node-0x2161f0" />
     </children>
   </item>
-  <item nodeId="node-0x6c37ab0">
+  <item nodeId="node-0x2161f0">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 White Room
@@ -147,10 +124,10 @@ White Room
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xb090090" />
+      <child nodeId="node-0x2160c0" />
     </children>
   </item>
-  <item nodeId="node-0xb090090">
+  <item nodeId="node-0x2160c0">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">White Room
 
@@ -159,10 +136,10 @@ White Room
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x751d170" />
+      <child nodeId="node-0x23f120" />
     </children>
   </item>
-  <item nodeId="node-0x751d170">
+  <item nodeId="node-0x23f120">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">White Room
 
@@ -170,5 +147,28 @@ White Room
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x216320">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">
+The White Room
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x2162d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2162d0">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">
+Garden of Eden
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
   </item>
 </Skein>
